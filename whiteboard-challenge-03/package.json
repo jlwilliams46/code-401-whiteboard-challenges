@@ -1,0 +1,17 @@
+{
+  "name": "whiteboard-challenge-03",
+  "version": "1.0.0",
+  "description": "&nbsp; You're the junior conductor on a commuter train, and have been asked by the senior conductor to do a head count of passengers on the train.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.2"
+  }
+}
