@@ -1,20 +1,48 @@
-'use strict';
-
-const solution = require('../lib/solution');
+const solution = require('../lib/solution.js');
 require('jest');
 
-describe('solution', function(){
-    it('should begin at the engine and traverse the train, until it reaches the caboose', () => {
-    expect(traverse(engine)).toEqual(12);
-    })
+describe('Function Validation', () => {
+    it('should verify that solution.traverse is a function', () => {
+        expect(solution.traverse).toBeInstanceOf(Function);
+    });
 });
-describe('solution', function(){
-    it('should validate that value is indeed a number', () => {
-    expect(traverse(engine)).$.isNumeric(engine);
-    })
+
+
+describe('Correct Output', () => {
+    it('should return correct sum of all passengers', () => {
+        train = {
+            "value": 2,
+            "next": {
+                "value": 2,
+                "next": {
+                    "value": 6,
+                    "next": {
+                        "value": 2,
+                        "next": null
+                    }
+                }
+            }
+        }
+
+        expect(solution.traverse(train)).toBe(12);
+    });
 });
-describe('solution', function(){
-    it('should determine when it has reached a value of null', () => {
-    expect(traverse(engine)).toBe(null);
-    })
+
+describe('Number Validation', () => {
+    it('should return null if any input is not a number', () => {
+        altTrain = {
+            "value": 2,
+            "next": {
+                "value": 'spongebob',
+                "next": {
+                    "value": 6,
+                    "next": {
+                        "value": 'krabby patty',
+                        "next": null
+                    }
+                }
+            }
+        }
+        expect(solution.traverse(altTrain)).toBe(null);
+    });
 });

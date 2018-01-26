@@ -1,22 +1,20 @@
 'use strict';
 
 const solution = module.exports = {};
+require('jest');
 
-let traverse = (car) => {
-    let passengers = 0;
+solution.traverse = (engine) => {
+    let total = 0,
+        passengers = engine;
+    if (typeof engine !== 'object') return null;
 
-    while (car.next !== null) {
-        console.log('passengers: ', car.passengers);
-        passengers += car.passengers;
-        car = car.next;
+    while (passengers.next !== null) {
+        if (typeof passengers.value !== 'number') return null;
+        console.log(passengers.value);
+        total += passengers.value;
+        passengers = passengers.next;
     }
-    return passengers + car.passengers;
-  };
-
-const car4 = {passengers: 0, next: null};
-const car3 = {passengers: 2, next: car4};
-const car2 = {passengers: 6, next: car3};
-const car1 = { passengers: 2, next: car2};  
-const engine = { passengers: 2, next: car1};
-
-traverse(engine);
+    console.log(passengers.value);
+    let result = total + passengers.value;
+    return result;
+}
