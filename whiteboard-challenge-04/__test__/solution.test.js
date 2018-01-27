@@ -1,23 +1,26 @@
 'use strict';
 
 const solution = require('../lib/solution.js');
+require('jest');
 
-require ('jest');
+let xt = ['mike', 'sue', 'tom', 'kathy', 'henry'];
+let yt = ['howey', 'jim', 'sue', 'jennifer', 'kathy', 'hank', 'alex'];
+let ans = ['sue', 'kathy'];
 
-describe('array validation', function () {
-    it('should validate the arrays', () => {
-        return true ? (Array.isArray(["mike", "sue", "tom", "kathy", "henry"]) && Array.isArray(["howey", "jim", "sue", "jennifer", "kathy", "hank", "alex"])) === true : null;
-    })
+describe('Function Validation', () => {
+    it('should verify that solution.intersect is a function', () => {
+        expect(solution.intersect).toBeInstanceOf(Function);
+    });
 });
 
-describe('unable to find intersection', function () {
-    it('should return undefined if unable to find intersection', () => {
-        expect(int).toEqual(undefined);
-    })
+describe('Result Validation', () => {
+    it('should verify the function has produced the correct result', () => {
+        expect(solution.intersect(xt, yt)).toEqual(ans);
+    });
 });
 
-describe('the correct result', function () {
-    it('should return a result of ["sue", "kathy"]', () => {
-        expect(int(a, b)).toEqual(["sue", "kathy"]);
-    })
+describe('Parameter Validation', () => {
+    it('should take two arrays as parameters', () => {
+        expect(solution.intersect(xt, yt)).toBeInstanceOf(Array);
+    });
 });
