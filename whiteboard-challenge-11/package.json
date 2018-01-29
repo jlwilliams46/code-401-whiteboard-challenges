@@ -1,0 +1,20 @@
+{
+  "name": "whiteboard-challenge-11",
+  "version": "1.0.0",
+  "description": "&nbsp; Complete today's whiteboard challenge and follow the submission instructions below:",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  },
+  "scripts": {
+  "test": "jest --verbose"
+}
+}
