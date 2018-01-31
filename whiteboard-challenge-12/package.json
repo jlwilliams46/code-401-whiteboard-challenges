@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-  "test": "jest --verbose"
-},
+    "test": "jest --verbose"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jlwilliams46/code-401-whiteboard-challenges.git"
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jlwilliams46/code-401-whiteboard-challenges/issues"
   },
-  "homepage": "https://github.com/jlwilliams46/code-401-whiteboard-challenges#readme"
+  "homepage": "https://github.com/jlwilliams46/code-401-whiteboard-challenges#readme",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
 }
