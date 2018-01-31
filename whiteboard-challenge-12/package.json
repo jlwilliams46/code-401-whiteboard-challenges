@@ -1,0 +1,29 @@
+{
+  "name": "whiteboard-challenge-12",
+  "version": "1.0.0",
+  "description": "Implement a Queue using only two Stacks",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwilliams46/code-401-whiteboard-challenges.git"
+  },
+  "keywords": [
+    "stack",
+    "queue"
+  ],
+  "author": "jamie williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlwilliams46/code-401-whiteboard-challenges/issues"
+  },
+  "homepage": "https://github.com/jlwilliams46/code-401-whiteboard-challenges#readme",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}

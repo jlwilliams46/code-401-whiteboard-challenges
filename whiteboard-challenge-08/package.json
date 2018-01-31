@@ -1,0 +1,20 @@
+{
+  "name": "whiteboard-challenge-08",
+  "version": "1.0.0",
+  "description": "a function that accepts the head of two linked lists as its two arguments and returns the intersection of the two.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  },
+"scripts": {
+"test": "jest --verbose"
+}
+}
