@@ -1,0 +1,15 @@
+{
+  "name": "whiteboard-challenge-14",
+  "version": "1.0.0",
+  "description": "remove consecutive duplicates from linked list using a stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamie Williams",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
