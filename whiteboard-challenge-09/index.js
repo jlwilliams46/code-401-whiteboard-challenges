@@ -1,7 +1,8 @@
 'use strict';
 
 module.exports = function (n, l) {
-  if (n instanceof Number === true || l instanceof Object !== true) return null;
+  if (n instanceof Number === true) return null;
+  if (l instanceof Object !== true) return null;
 
   let a = 0, b = l.head;
 
