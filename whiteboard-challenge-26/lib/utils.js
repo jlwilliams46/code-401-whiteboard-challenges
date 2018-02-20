@@ -8,8 +8,8 @@ utils.map = (arr, cb) => {
 
   let clone = new Array(...arr), output = [];
 
-  for(let i in clone) {
-    output.push(cb(arr[i]));
+  for(let x in clone) {
+    output.push(cb(arr[x]));
   }
 
   return output;
@@ -21,8 +21,8 @@ utils.filter = (arr, cb) => {
 
   let clone = new Array(...arr), output = [];
 
-  for(let i in clone) {
-    if(arr[i] === cb()) output.push(arr[i]);
+  for(let x in clone) {
+    if(arr[x] === cb()) output.push(arr[x]);
   }
 
   return output;
@@ -34,8 +34,8 @@ utils.reduce = (arr, cb, n) => {
 
   let  clone = new Array(...arr), output = n;
 
-  for(let i in clone) {
-    output = cb(output, clone[i]);
+  for(let x in clone) {
+    output = cb(output, clone[x]);
   }
 
   return output;
