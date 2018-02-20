@@ -1,0 +1,31 @@
+{
+  "name": "whiteboard-challenge-26",
+  "version": "1.0.0",
+  "description": "Create a utils.js module which exports the following methods: map(), filter(), and reduce().",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwilliams46/code-401-whiteboard-challenges.git"
+  },
+  "keywords": [
+    "map",
+    "filter",
+    "reduce"
+  ],
+  "author": "Jamie Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlwilliams46/code-401-whiteboard-challenges/issues"
+  },
+  "homepage": "https://github.com/jlwilliams46/code-401-whiteboard-challenges#readme",
+  "dependencies": {
+    "eslint": "^4.18.0",
+    "jest": "^22.3.0"
+  }
+}
