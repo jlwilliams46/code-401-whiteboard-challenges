@@ -31,7 +31,7 @@ describe('Undefined Array', () => {
 });
 
 describe('Input Validation', () => {
-  it('should throw error if input not an originalay', () => {
+  it('should throw error if input not an array', () => {
     expect(() => nagaram('jamie')).toThrowError;
   });
 });
