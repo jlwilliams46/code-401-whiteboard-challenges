@@ -1,0 +1,30 @@
+{
+  "name": "whiteboard-challenge-31",
+  "version": "1.0.0",
+  "description": "given two arrays, write a function to compute their intersection",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwilliams46/code-401-whiteboard-challenges.git"
+  },
+  "keywords": [
+    "array",
+    "intersection"
+  ],
+  "author": "Jamie Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlwilliams46/code-401-whiteboard-challenges/issues"
+  },
+  "homepage": "https://github.com/jlwilliams46/code-401-whiteboard-challenges#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "jest": "^22.4.2"
+  }
+}
