@@ -1,0 +1,31 @@
+{
+  "name": "whiteboard-challenge-32",
+  "version": "1.0.0",
+  "description": "two functions to print out the nth entry in the fibonacci series, recursively and iteratively.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlwilliams46/code-401-whiteboard-challenges.git"
+  },
+  "keywords": [
+    "fibonacci",
+    "recursively",
+    "iteratively"
+  ],
+  "author": "Jamie Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlwilliams46/code-401-whiteboard-challenges/issues"
+  },
+  "homepage": "https://github.com/jlwilliams46/code-401-whiteboard-challenges#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "jest": "^22.4.2"
+  }
+}
