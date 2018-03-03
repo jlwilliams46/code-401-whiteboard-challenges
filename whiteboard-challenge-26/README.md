@@ -1,5 +1,6 @@
 # Whiteboard Challenge 26
 ##### Date: February 19th, 2018
+##### Big O Notation: O(n), each function respectively.
 &nbsp;
 ## Problem Domain: 
 &nbsp;
